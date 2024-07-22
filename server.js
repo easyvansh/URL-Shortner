@@ -1,9 +1,15 @@
 const express = require('express')
-const  mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 
 const app = express()
-mongoose.connect('mongodb://localhost/urlShortner',)
+
+const  mongoose = require('mongoose')
+const connectDB = async()=> {
+   await mongoose.connect('mongodb+srv://vanshsingh:urlshortnerbyvansh@cluster0.qhi0fmh.mongodb.net/urlShortner',)
+    console.log(`Connected to ${mongoose.connection.host}`)
+} 
+
+connectDB()
 
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({extended:false}))
