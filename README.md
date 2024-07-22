@@ -5,7 +5,7 @@
 <img src="https://github.com/easyvansh/URL-Shortner/blob/main/images/urlShortner.JPG" style="width:800px; height:400px"/>
 </div>
 
-URL Shrinker allows you to easily shorten long URLs, track clicks, and manage your links with a user-friendly interface. Built with Node.js, Express.js, and MongoDB, and deployed on Render, this service is both reliable and scalable.
+URL Shrinker allows you to easily shorten long URLs, track clicks, and manage your links with a user-friendly interface. Built with Node.js, Express.js, and MongoDB, and deployed on Render, this service is both reliable and scalable and is available online at [URL Shrinker](https://url-shortner-d5fy.onrender.com).
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ URL Shrinker allows you to easily shorten long URLs, track clicks, and manage yo
 
 ## Getting Started
 
-1. **Visit the Web Service**: Access the URL Shortener Web Service online at [URL Shortener](https://url-shortner-d5fy.onrender.com).
+1. **Visit the Web Service**: Access the URL Shortener Web Service online at [URL Shrinker](https://url-shortner-d5fy.onrender.com).
 2. **Shorten a URL**: Enter the long URL you want to shorten and click "Shrink".
 3. **Track Clicks**: View the number of clicks on each shortened URL.
 
